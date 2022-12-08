@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#app {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin: 0 auto;
+}
+
+.block {
+  flex: 1;
+  max-width: 270px;
+  min-width: 200px;
+}
+
+.block img {
+  display: block;
+  width: 100%;
+}
